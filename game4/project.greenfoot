@@ -7,14 +7,19 @@ editor.fx.0.x=552
 editor.fx.0.y=100
 =======
 class.A.image=wombat.png
+class.B.image=wombat.png
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 >>>>>>> af5590c740beeb57f7b2cf8f552b2e06a8c4ab88
 height=585
+=======
+height=28
+>>>>>>> 9b8ed344148c8b31ce811273e60704f1f77a28bf
 package.numDependencies=0
-package.numTargets=2
+package.numTargets=3
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -41,15 +46,23 @@ target1.width=80
 target1.x=0
 target1.y=0
 target2.height=50
-target2.name=MyWorld
+target2.name=B
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
 target2.x=0
 target2.y=0
+target3.height=50
+target3.name=MyWorld
+target3.showInterface=false
+target3.type=ClassTarget
+target3.width=80
+target3.x=0
+target3.y=0
 version=3.0.0
-width=825
+width=160
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 <<<<<<< HEAD
 xPosition=66
 yPosition=823
@@ -57,3 +70,7 @@ yPosition=823
 xPosition=954
 yPosition=258
 >>>>>>> af5590c740beeb57f7b2cf8f552b2e06a8c4ab88
+=======
+xPosition=0
+yPosition=0
+>>>>>>> 9b8ed344148c8b31ce811273e60704f1f77a28bf
