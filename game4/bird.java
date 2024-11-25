@@ -8,12 +8,23 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class bird extends Actor
 {
-    /**
-     * Act - do whatever the bird wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public bird(){
+        GreenfootImage image = getImage();
+        image.scale(512, 900);
+    }
+    
     public void act() 
     {
         // Add your action code here.
-    }    
+        if(Jugador.isAlive()){
+            setLocation(getX() - 1, getY());
+        }
+        if(getX() <= 1){
+            setLocation(getX() + 700, 75 + Greenfoot.getRandomNumber(225));
+        }
+        if (Greenfoot.isKeyDown("r"))
+        {
+            getWorld().removeObject(this);
+        }
+    }
 }
