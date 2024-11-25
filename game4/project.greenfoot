@@ -3,15 +3,25 @@ class.A.image=wombat.png
 class.B.image=wombat.png
 class.C.image=smiley3.png
 class.D.image=snowman.png
+class.MyWorld.image=Image\ (4).jpg
+class.Start.image=start.jpg
 class.bird.image=undefined.png
 class.sigekuni_run.image=sigekuni_run.png
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
 height=1047
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=1056
+>>>>>>> 9d2b12d94bf972274893ffcc1e278dff2ce53f10
 package.numDependencies=0
-package.numTargets=7
+package.numTargets=8
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -62,21 +72,32 @@ target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
-target6.name=bird
+target6.name=Start
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-target7.name=MyWorld
+target7.name=bird
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
+target8.height=50
+target8.name=MyWorld
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=80
+target8.x=0
+target8.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=974
+=======
+width=1936
+>>>>>>> 9d2b12d94bf972274893ffcc1e278dff2ce53f10
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
