@@ -1,21 +1,16 @@
 #Greenfoot project file
 class.A.image=wombat.png
-<<<<<<< HEAD
-class.D.image=snowman.png
-=======
 class.B.image=wombat.png
-<<<<<<< HEAD
->>>>>>> 804ab1af1f4a7d9e706c62631cfd6ea7921eefb8
-=======
 class.C.image=smiley3.png
->>>>>>> 14cd083ca982ff23f37836e6c0d3efd5317d1569
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=1056
+class.D.image=snowman.png
+class.tonakai.image=5720-450x337.jpg
+editor.fx.0.height=1047
+editor.fx.0.width=974
+editor.fx.0.x=839
+editor.fx.0.y=157
+height=1047
 package.numDependencies=0
-package.numTargets=4
+package.numTargets=6
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -38,11 +33,7 @@ target1.width=80
 target1.x=0
 target1.y=0
 target2.height=50
-<<<<<<< HEAD
-target2.name=D
-=======
 target2.name=B
->>>>>>> 804ab1af1f4a7d9e706c62631cfd6ea7921eefb8
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
@@ -56,14 +47,28 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-target4.name=MyWorld
+target4.name=D
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
 target4.x=0
 target4.y=0
+target5.height=50
+target5.name=tonakai
+target5.showInterface=false
+target5.type=ClassTarget
+target5.width=80
+target5.x=0
+target5.y=0
+target6.height=50
+target6.name=MyWorld
+target6.showInterface=false
+target6.type=ClassTarget
+target6.width=80
+target6.x=0
+target6.y=0
 version=3.0.0
-width=1936
+width=974
 world.lastInstantiated=MyWorld
-xPosition=0
+xPosition=953
 yPosition=0
