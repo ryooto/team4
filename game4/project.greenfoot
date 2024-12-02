@@ -5,21 +5,13 @@ class.C.image=smiley3.png
 class.D.image=snowman.png
 class.MyWorld.image=Image\ (4).jpg
 class.Start.image=start.jpg
-class.bird.image=undefined.png
+class.bird.image=undefined-removebg-preview.png
 class.sigekuni_run.image=sigekuni_run.png
-<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
+editor.fx.0.x=259
+editor.fx.0.y=124
 height=1047
-=======
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=1056
->>>>>>> 9d2b12d94bf972274893ffcc1e278dff2ce53f10
 package.numDependencies=0
 package.numTargets=8
 project.charset=UTF-8
@@ -93,11 +85,7 @@ target8.width=80
 target8.x=0
 target8.y=0
 version=3.0.0
-<<<<<<< HEAD
 width=974
-=======
-width=1936
->>>>>>> 9d2b12d94bf972274893ffcc1e278dff2ce53f10
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
