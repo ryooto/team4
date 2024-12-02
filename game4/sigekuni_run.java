@@ -12,10 +12,10 @@ public class sigekuni_run extends Actor
      public void act() 
     {
         //Add your action code here.
-        g+=0.03;
+        g+=0.05;
         y+=g;
         setLocation(100,y);
-        setRotation((int)(g * 16));
+        setRotation((int)(g * 15));
         if( Greenfoot.isKeyDown( "space" ) )
         {
                 g=-1.3;
