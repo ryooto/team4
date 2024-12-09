@@ -22,6 +22,10 @@ public class tonakai extends Actor
                Actor actor = getOneIntersectingObject( sigekuni_run.class );
                if( actor != null ){
                    Greenfoot.stop();// sigekuni とぶつかった時の処理を書く
-                }  
+               }
+               Actor tonakai = getOneIntersectingObject(tonakai.class);
+               if(tonakai != null){
+                   getWorld().removeObject( tonakai );
+               }
       }
 }
