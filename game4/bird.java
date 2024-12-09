@@ -19,6 +19,9 @@ public class bird extends Actor
     {
         // Add your action code here.
         Actor actor = getOneIntersectingObject( sigekuni_run.class );
+        
+        setRotation(0);
+        move(-2);
         if( actor != null ){
             Greenfoot.stop();// TARO とぶつかった時の処理を書く
         }     
