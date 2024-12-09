@@ -1,3 +1,4 @@
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -8,21 +9,19 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class tonakai extends Actor
 {
-    private GreenfootImage img_bkup = null;
-      private int width=50;
-      private int height= 50;
-
-      public tonakai()
-      {
-               img_bkup = new GreenfootImage( getImage() );
-               getImage().scale( width,height );
-      }
+    public tonakai()
+    {
+                GreenfootImage image = getImage();
+                image.scale(512, 900);
+                getImage().scale( 100, 100 );
+    }
     
-      public void act() 
+    public void act() 
       {
-               GreenfootImage img = new GreenfootImage(img_bkup);
-               // (注意) scale で画像サイズを変更してから setImage すること
-               img.scale( width++,height++ );
-               setImage(img);
-      } 
+               move(-3);
+               Actor actor = getOneIntersectingObject( sigekuni_run.class );
+               if( actor != null ){
+                   Greenfoot.stop();// sigekuni とぶつかった時の処理を書く
+                }  
+      }
 }
