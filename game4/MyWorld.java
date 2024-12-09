@@ -15,6 +15,10 @@ public class MyWorld extends World
     public MyWorld()
     {    
         super(800, 400, 1); 
-        addObject(new sigekuni_run(),100,100);
+        /**addObject(new Start(),100,100);*/
+       
+            addObject(new sigekuni_run(),100,100);
+            addObject(new bird(), 300, 175);
+        
     }
 }

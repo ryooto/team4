@@ -20,5 +20,20 @@ public class sigekuni_run extends Actor
         {
                 g=-1.3;
         }
-    }
+        
+        Actor actor = getOneIntersectingObject( bird.class );
+        if( actor != null ){
+    // TARO とぶつかった時の処理を書く
+            getWorld().showText( "dead", 100, 50 );
+            getWorld().addObject(new gemeover(), 300, 175);
+            Greenfoot.stop();
+        }
+        Actor actor2 = getOneIntersectingObject( tonakai.class );
+        if( actor2 != null ){
+    // TARO とぶつかった時の処理を書く
+            getWorld().showText( "dead", 100, 50 );
+            getWorld().addObject(new gemeover(), 300, 175);
+            Greenfoot.stop();
+        }
+          }
 }
