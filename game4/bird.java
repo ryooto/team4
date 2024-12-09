@@ -10,21 +10,15 @@ public class bird extends Actor
 {
     public bird(){
         GreenfootImage image = getImage();
-        image.scale(512, 900);
+        image.scale(50, 50);
     }
     
     public void act() 
     {
         // Add your action code here.
-        if(Jugador.isAlive()){
-            setLocation(getX() - 1, getY());
-        }
+        setLocation(getX() - 1, getY());
         if(getX() <= 1){
             setLocation(getX() + 700, 75 + Greenfoot.getRandomNumber(225));
-        }
-        if (Greenfoot.isKeyDown("r"))
-        {
-            getWorld().removeObject(this);
         }
     }
 }
