@@ -34,7 +34,11 @@ editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 height=1056
+=======
+height=601
+>>>>>>> c957c082075672c8b543e94fbe6583a1518bb2bc
 package.numDependencies=7
 package.numTargets=10
 project.charset=UTF-8
@@ -122,7 +126,11 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=1936
+=======
+width=1063
+>>>>>>> c957c082075672c8b543e94fbe6583a1518bb2bc
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
