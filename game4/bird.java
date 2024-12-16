@@ -26,7 +26,7 @@ public class bird extends Actor
 
         Actor actor = getOneIntersectingObject( sigekuni_run.class );
         if( actor != null ){
-            Greenfoot.stop();// TARO とぶつかった時の処理を書く
+            // TARO とぶつかった時の処理を書く
         }     
 
     }
