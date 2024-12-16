@@ -40,22 +40,13 @@ dependency8.type=UsesDependency
 dependency9.from=bird
 dependency9.to=sigekuni_run
 dependency9.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-<<<<<<< HEAD
-height=1056
-=======
+editor.fx.0.height=740
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=99
 height=601
-<<<<<<< HEAD
 package.numDependencies=10
 package.numTargets=11
-=======
->>>>>>> c957c082075672c8b543e94fbe6583a1518bb2bc
-package.numDependencies=7
-package.numTargets=10
->>>>>>> f965d716a19809a9d9d4d01f3fdd9c3491b2cbf1
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -148,11 +139,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=1936
-=======
-width=1063
->>>>>>> c957c082075672c8b543e94fbe6583a1518bb2bc
+width=1068
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
