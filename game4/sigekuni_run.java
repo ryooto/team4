@@ -19,6 +19,7 @@ public class sigekuni_run extends Actor
         if( Greenfoot.isKeyDown( "space" ) )
         {
                 g=-1.3;
+                
         }
         
         Actor actor = getOneIntersectingObject( bird.class );
@@ -35,5 +36,11 @@ public class sigekuni_run extends Actor
             getWorld().addObject(new gemeover(), 300, 175);
             Greenfoot.stop();
         }
-          }
+        if(getY()>=399 ){
+             getWorld().showText( "dead", 100, 50 );
+            getWorld().addObject(new gemeover(), 300, 175);
+            Greenfoot.stop();
+        }
 }
+          }
+         

@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+                 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Write a description of class bird here.
@@ -29,7 +29,7 @@ public class bird extends Actor
         setRotation(0);
         move(-2);
         if( actor != null ){
-            Greenfoot.stop();// TARO とぶつかった時の処理を書く
+            // TARO とぶつかった時の処理を書く
         }     
 
     }
