@@ -9,9 +9,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class sigekuni_run extends Actor
 {  private int  y=100;
    private double g = 0;
+   
      public void act() 
     {
         //Add your action code here.
+        getImage().scale( 50, 50 );
         g+=0.05;
         y+=g;
         setLocation(100,y);
@@ -37,6 +39,11 @@ public class sigekuni_run extends Actor
             Greenfoot.stop();
         }
         if(getY()>=399 ){
+             getWorld().showText( "dead", 100, 50 );
+            getWorld().addObject(new gemeover(), 300, 175);
+            Greenfoot.stop();
+        }
+        if(getY()<=1 ){
              getWorld().showText( "dead", 100, 50 );
             getWorld().addObject(new gemeover(), 300, 175);
             Greenfoot.stop();

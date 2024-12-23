@@ -21,6 +21,7 @@ public class MyWorld extends World
         /**addObject(new Start(),100,100);*/
        
         addObject(new sigekuni_run(),100,100);
+        //getBackground().scale( 100, 100 );
         addObject(new bird(), 300, 175);
         addObject(new tonakai(), 500, 300);
         
