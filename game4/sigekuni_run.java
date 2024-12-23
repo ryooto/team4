@@ -39,7 +39,7 @@ public class sigekuni_run extends Actor
             Greenfoot.stop();
         }
         if(getY()>=399 ){
-             getWorld().showText( "dead", 100, 50 );
+            getWorld().showText( "dead", 100, 50 );
             getWorld().addObject(new gemeover(), 300, 175);
             Greenfoot.stop();
         }
