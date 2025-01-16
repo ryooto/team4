@@ -24,8 +24,8 @@ public class MyWorld extends World
         player=new sigekuni_run();
         addObject(player,100,100);
         //getBackground().scale( 100, 100 );
-        addObject(new bird(), 300, 175);
-        addObject(new tonakai(), 500, 300);
+        addObject(new bird(), 600, 175);
+        addObject(new tonakai(), 700, 300);
         showText( "プレゼント残り："+ timeLimit + "個", 650, 30);
 
     }
