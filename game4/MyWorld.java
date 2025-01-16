@@ -14,12 +14,14 @@ public class MyWorld extends World
      */
     private int number=10;
     private int counter=0;
+    public sigekuni_run player;
+     
     public MyWorld()
     {   
         super(800, 400, 1); 
         /**addObject(new Start(),100,100);*/
-       
-        addObject(new sigekuni_run(),100,100);
+        player=new sigekuni_run();
+        addObject(player,100,100);
         //getBackground().scale( 100, 100 );
         addObject(new bird(), 300, 175);
         addObject(new tonakai(), 500, 300);
@@ -36,6 +38,9 @@ public class MyWorld extends World
             {
                 number--;  // 残りのプレゼント数を減らす
                 showText("プレゼント残り：" + number + "個", 650, 30);  // 表示を更新
+                int y_s = player.getY();
+                addObject(new present(),100,y_s);
+                
             }
         }
         if(number <= 0)
@@ -47,5 +52,11 @@ public class MyWorld extends World
             // スペースキーが押されたらMyWorldに切り替え
             Greenfoot.setWorld(new StartWorld());
         }
+    }
+    public int get_sigekuni(){
+        int y_s = player.getY();
+        
+        return  y_s;
+        
     }
 }
