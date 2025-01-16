@@ -12,7 +12,7 @@ public class MyWorld extends World
      * Constructor for objects of class MyWorld.
      * 
      */
-    private int number=10;
+    private int number=3;
     private int counter=0;
     public sigekuni_run player;
      
@@ -46,12 +46,14 @@ public class MyWorld extends World
         if(number <= 0)
         {
             showText( "Clear", 300, 300);
+            addObject(new gameclear(), 300, 175);
             Greenfoot.stop();
         }
         if (Greenfoot.isKeyDown("r")) {
             // スペースキーが押されたらMyWorldに切り替え
             Greenfoot.setWorld(new StartWorld());
         }
+        
     }
     public int get_sigekuni(){
         int y_s = player.getY();
