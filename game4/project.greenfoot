@@ -44,23 +44,13 @@ dependency8.type=UsesDependency
 dependency9.from=sigekuni_run
 dependency9.to=tonakai
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=1056
-package.numDependencies=10
-package.numTargets=11
-=======
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=796
 editor.fx.0.y=98
-height=1047
+height=1056
 package.numDependencies=11
 package.numTargets=12
->>>>>>> 711eee8fffdda547f22d982d95c7600b8b191b0d
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -162,9 +152,5 @@ target9.y=0
 version=3.0.0
 width=1936
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
 xPosition=0
-=======
-xPosition=873
->>>>>>> 711eee8fffdda547f22d982d95c7600b8b191b0d
 yPosition=0

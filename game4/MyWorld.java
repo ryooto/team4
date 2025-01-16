@@ -28,6 +28,7 @@ public class MyWorld extends World
     }
     public void act()
     {
+        
         counter++;
         if (counter >= 60) 
         {  // 1秒に相当するフレーム数（Greenfootのフレームレートが60fpsのため）
