@@ -1,4 +1,5 @@
  import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+ import java.awt.Font;
 
 /**
  * Write a description of class MyWorld here.
@@ -47,7 +48,13 @@ public class MyWorld extends World
         }
         if(timeLimit <= 0)
         {
-            showText( "Clear", 300, 300);
+            GreenfootImage clearText = new GreenfootImage(400, 100); // 画像を作成
+            clearText.setColor(Color.RED); // 文字色を設定
+            clearText.setFont(clearText.getFont().deriveFont(80f)); // フォントサイズを40に変更
+            clearText.drawString("Clear", 50, 80); // 文字を描画
+        
+            getBackground().drawImage(clearText, 230, 150); // 背景に描画
+        
             addObject(new gameclear(), 300, 175);
             Greenfoot.stop();
         }
