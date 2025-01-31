@@ -20,8 +20,8 @@ public class SelectWorld extends World
         prepare();
     }
     private void prepare(){
-        addObject(new Button("Easy", 5), 200, 200);  // 簡単: プレゼント20
-        addObject(new Button("Medium", 40), 300, 200);  // 普通: プレゼント40
+        addObject(new Button("Easy", 30), 200, 200);  // 簡単: プレゼント30
+        addObject(new Button("Medium", 45), 300, 200);  // 普通: プレゼント45
         addObject(new Button("Hard", 60), 400, 200);  // 難しい: プレゼント60
     }
 }
