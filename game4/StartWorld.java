@@ -22,7 +22,7 @@ public class StartWorld extends World
     {
         if (Greenfoot.isKeyDown("e")) {
             // スペースキーが押されたらMyWorldに切り替え
-            Greenfoot.setWorld(new MyWorld());
+            Greenfoot.setWorld(new SelectWorld());
         }
     }
 }
